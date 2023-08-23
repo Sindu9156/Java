@@ -1,7 +1,6 @@
 import java.util.*;
 class main{
     public static void main(String args[]){
-        System.out.println("Hi!,This is sindu");
         int a,b;
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the first value");
