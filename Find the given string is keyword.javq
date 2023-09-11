@@ -1,0 +1,21 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+String a[]={"while","for","break","do","static","main","void","String","int","float"};
+String s;
+int flag=0,n;
+n=a.length;
+System.out.println("enter the string");
+Scanner c=new Scanner(System.in);
+s=c.nextLine();
+for(int i=0;i<n;i++){
+if(a[i].equals(s)){
+  flag=1;
+   System.out.println(s+" is a keyword");
+   break;
+}} 
+if(flag==0)
+System.out.println(s+"is not a keyword");
+
+         }
+} 
